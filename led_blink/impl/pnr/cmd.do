@@ -1,0 +1,14 @@
+-d /run/media/hpp/softwaredata/code/FPGA/led_blink/impl/gwsynthesis/led_blink.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst /run/media/hpp/softwaredata/code/FPGA/led_blink/src/led_blink.cst
+-cfg /run/media/hpp/softwaredata/code/FPGA/led_blink/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

@@ -1,0 +1,15 @@
+IO_LOC "lcd_bl" P12;
+IO_LOC "lcd_data" L15;
+IO_LOC "lcd_rs" J13;
+IO_LOC "lcd_cs" C16;
+IO_LOC "lcd_clk" F12;
+IO_LOC "lcd_resetn" G13;
+IO_LOC "clk" H11;
+
+IO_PORT "lcd_bl" PULL_MODE=UP DRIVE=8;
+IO_PORT "lcd_data" PULL_MODE=UP DRIVE=8;
+IO_PORT "lcd_rs" PULL_MODE=UP DRIVE=8;
+IO_PORT "lcd_cs" PULL_MODE=UP DRIVE=8;
+IO_PORT "lcd_clk" PULL_MODE=UP DRIVE=8;
+IO_PORT "lcd_resetn" PULL_MODE=UP DRIVE=8;
+IO_PORT "clk" PULL_MODE=UP;

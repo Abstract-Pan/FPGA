@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="led" Register="25" Lut="9" T_Register="25(25)" T_Lut="45(9)">
+ <SubModule name="adder" T_Lut="36(0)">
+  <SubModule name="adder_loop[0].adder" Lut="3" T_Lut="3(3)"/>
+  <SubModule name="adder_loop[1].adder" Lut="6" T_Lut="6(6)"/>
+  <SubModule name="adder_loop[2].adder" Lut="7" T_Lut="7(7)"/>
+  <SubModule name="adder_loop[3].adder" Lut="6" T_Lut="6(6)"/>
+  <SubModule name="adder_loop[4].adder" Lut="7" T_Lut="7(7)"/>
+  <SubModule name="adder_loop[5].adder" Lut="7" T_Lut="7(7)"/>
+ </SubModule>
+</Module>

@@ -1,0 +1,14 @@
+-d /run/media/HPP/softwaredata/code/FPGA/TangPrimer-20K-example/UART/impl/gwsynthesis/uart_Hello.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst /run/media/HPP/softwaredata/code/FPGA/TangPrimer-20K-example/UART/src/top.cst
+-cfg /run/media/HPP/softwaredata/code/FPGA/TangPrimer-20K-example/UART/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
